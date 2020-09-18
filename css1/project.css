@@ -86,3 +86,8 @@
 	hr{
 		border : 0.5px solid #ffa0a0;
 	}
+	.logo_login{
+		position : absolute;
+		right : 400px;
+		top : 15px;
+	}
