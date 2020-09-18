@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" lang="en-US"name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<script src="scripts/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css1/project.css">
+<title>One Click Learn</title>
+<script>
+	function redirect(){
+		window.location = "login.html";
+	}
+</script>
+</head>
+<body>
+<div class="row">
+<ul id="nav">
+	<li class="col-xs-2"><a href="framework.html" id="navlink">Home</a></li>
+	<li class="col-xs-2"><a href="framework.html#contact" id="navlink">Contact</a></li>
+</ul>
+</div>
+<div>
+<img class="img-repsonsive" src="images1/logo1.png" align="middle"/>
+<p class="col-md-8" style="font-size:70px">Register Here !</p>
+</div>
+<!-- PHP not included. Login and registration not possible -->
+<form name="login_form" role="form" action="login.php" method="post">
+<div class="form-group">
+<label for="name">Name:</label>
+<div style="width:400px">
+<p>First name</p>
+<input type="text" class="form-control" name="First name" maxlength="60" size="60" placeholder="First Name Here"/>
+<p>Last name</p>
+<input type="text" class="form-control" name="Last name" maxlength="60" size="60" placeholder="Last Name Here"/>
+</div>
+</div>
+<div class="form-group">
+<label for="email">Email:</label>
+<div style="width:400px">
+<input type="text" name="email" class="form-control" maxlength="60" size="60" placeholder="Email goes here"/>
+</div>
+</div>
+<div class="form-group">
+<label for="Password">Password</label>
+<div style="width:400px">
+<input type="password" name="password" class="form-control" maxlength="60" size="60" placeholder="Enter password"/>
+</div>
+</div>
+<div class="form-group">
+<label for="Confirm Password">Confirm Password</label>
+<div style="width:400px">
+<input type="password" name="Confirm password" class="form-control" maxlength="60" size="60" placeholder="Re-enter password"/>
+</div>
+</div>
+<div class="form-group">
+<label for="mobile number">Mobile number</label>
+<div style="width:400px">
+<input type="number-text" name="Mobile Number" class="form-control" maxlength="10" size="10" placeholder="Drop your number"/>
+</div>
+</div>
+<div class="form-group">
+<input type="submit" class="btn btn-default" name="btn" value="Register Now!" onclick="alert('Registration Done')"/>
+</div>
+</form>
+<p>Already registered ? <button type="button" onclick="redirect()">Login Now!!</button></p>
+</body>
+</html>

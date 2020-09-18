@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" lang="en-US" name="viewport" content="width=device-width , initial-scale=1.0"/>
+<title>One Click Learn</title>
+<link rel="stylesheet" href="css/project.css">
+<link rel="stylesheet" href="css/new.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+</head>
+<body>
+<div style="background-image:url('images/bg.jpeg');background-repeat:no-repeat;width:1890px;height:1440px">
+<h1 style="font-size:75px;text-align:center">Electronics Engineering </h1>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Home</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Info</a>
+  </div>
+</div>
+<div class="dropdown">
+<button onclick="Function()" class="dropbtn">Topics</button>
+  <div id="myDrop" class="dropdown-content">
+    <a href="#ece">EDC</a>
+    <a href="#dld">DLD</a>
+    <a href="#s&s">S&S</a>
+    <a href="#mpi">MPI</a>
+  </div>
+</div>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+function Function() {
+    document.getElementById("myDrop").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<br/><br/><br/>
+<p>
+<p id ="content">
+	Welcome to the electronics engineering section! Here you will find content related to a wide range of topics from the once widely used (now veteran) Bipolar Junction Transistor to the now widely used MOSFETs. You will also find the basics of communication from ground up that help you get an idea about signals,systems and their real world applications. The subject of digital logic design which helps us know how these electronic devices are used in the Digital world. So are you ready to dive deeper? We dare you;).
+</p>  
+</p>
+</p>
+</div>
+<div id="ece" style="background-image:url('images/home1.jpg');background-repeat:no-repeat;width:1890px;height:1212px">
+<h1>
+
+	EDC TUTORIALS
+
+</h1>
+<br/>
+<a href="#" class="button">HOME</a>
+<br/>
+<br/>
+<br/>
+<p id="content" style="text-align:center">
+        Electronics devices and circuits is a subject which deals with basics components of electronics like Transistors and its types,power amplifiers,diodes,and different biasing techniques used.We have attached some basic PDF's for the different topics to be covered in this section.For the user's ease we have separated topics.Hope you will enjoy these tutorials............ Grab the most that you can from these tutorials.
+        		
+</p>
+<p>
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <a href="#ece" class="active">TRANSISTOR</a>
+  <a href="http://www.pitt.edu/~qiw4/Academic/ME2082/Transistor%20Basics.pdf">BJT</a>
+  <a href="https://www.kcesmjcollege.in/ICT/Physics%20and%20Electronics/power%20%20Eletronics-UJT.pdf">UJT</a>
+  <a href="http://www-ferp.ucsd.edu/najmabadi/CLASS/ECE60L/02-S/NOTES/FET.pdf">FET</a>
+  <a href="https://coefs.uncc.edu/dlsharer/files/2012/04/J3b.pdf">MOSFET</a>
+
+</div>
+
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#ece" class="active">CAPACITORS</a>
+  <a href="https://johansondielectrics.com/downloads/jdi_mlcc-basics_2007-12.pdf">CERAMIC</a>
+  <a href="http://www.kemet.com/Lists/TechnicalArticles/Attachments/6/What%20is%20a%20Capacitor.pdf">BUTTON TYPE</a>
+  <a href="http://www.kemet.com/Lists/TechnicalArticles/Attachments/6/What%20is%20a%20Capacitor.pdf">ELECTROLYTIC</a>
+  <a href="http://www.philipstorr.id.au/radio/technical/Variable%20Capacitors.pdf">VARIABLE</a>
+
+</div>
+
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#ece" class="active">DIODES</a>
+  <a href="http://www.idc-online.com/technical_references/pdfs/electronic_engineering/PN_Junction_Diode_and_its_characteristics.pdf">PN JUNCTION DIODE</a>
+  <a href="http://silas.psfc.mit.edu/22.071j/photodiode.pdf">PHOTO DIODE</a>
+  <a href="http://lampx.tugraz.at/~hadley/psd/problems/laser/s.pdf">LASER DIODE</a>
+  <a href="https://coefs.uncc.edu/dlsharer/files/2012/04/B9.pdf">ZENER DIODE</a>
+
+</div>
+
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#ece" class="active">OSCILLATORS</a>
+  <a href="http://www.inictel-uni.edu.pe/sites/default/files/archivos/2014/publicaciones/12/rc_phase_shift_oscillators.pdf">RC OSCILLATORS</a>
+  <a href="http://bolvan.ph.utexas.edu/~vadim/classes/15s/LCR.pdf">LC OSCILLATORS</a>
+  <a href="http://www.bel.utcluj.ro/rom/dce/goltean/fec_aai/11_nonsinusoidal_oscillators_aai.pdf">NON-SINUSOIDAL</a>
+  <a href="#ece">OTHERS</a>
+</div>
+
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#ece" class="active">INDUCTORS</a>
+  <a href="http://educypedia.karadimov.info/library/Air%20Coil%20Inductors.pdf">AIR CORE</a>
+  <a href="http://www.die.ing.unibo.it/pers/grandi/papers/ciep00.pdf">IRON CORE</a>
+  <a href="https://www.ieee.li/pdf/viewgraphs/fundamentals_magnetics_design.pdf">FERRITE CORE</a>
+  <a href="http://www.micrometals.com/appnotes/appnotedownloads/ipc4spsi.pdf">IRON POWDER</a>
+
+</div>
+
+</p>
+</div>
+<div id="dld" style="background-image:url('images/home2.jpg');background-repeat:no-repeat;width:1890px;height:1212px">
+<h1>
+
+	DLD TUTORIALS
+
+</h1>
+</br>
+<a href="#" class="button">HOME</a>
+<br/>
+<br/>
+<br/>
+<p id="content">
+        Digital Logic Design ,the name itself says everything....This subject deals with the topics related to Digital Data and logic design for different real world Digital devices like calculators,lED display...etc.,.This is also deals with the devices like multiplexers,Demultiplexers,counters and also some other timing circuits.In this section,we have attached different tutorial PDF's for the topics discussed above.Hope you will enjoy studying them.........All the Best 
+</p>
+<p>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">NUMBER SYSTEMS</a>
+  <a href="https://www-edlab.cs.umass.edu/cs230/weeks/w02/binary-overview.pdf">BINARY</a>
+  <a href="https://www.electronics-tutorials.ws/binary/bin_4.html">OCTAL</a>
+  <a href="https://www.rit.edu/studentaffairs/asc/sites/rit.edu.studentaffairs.asc/files/docs/services/resources/handouts/DM4_OctalandHexadecimalNumberSystems_BP_9_22_14.pdf">HEXDECIMAL</a>
+  <a href="http://web.ntnu.edu.tw/~tcchiang/IntroCS/1_Number%20Systems.pdf">DECIMAL</a>
+
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">BOOLEAN ALGEBRA</a>
+  <a href="http://www.iuma.ulpgc.es/~nunez/clases-FdC/irvine-gajski-digital-design/Chapter04.pdf">SIMPLIFICATION</a>
+  <a href="https://web.iit.edu/sites/web/files/departments/academic-affairs/academic-resource-center/pdfs/kmaps.pdf">K-MAP</a>
+  <a href="https://numangift.files.wordpress.com/2013/03/chap4.pdf">TABULAR METHOD</a>
+  <a href="https://courses.cs.washington.edu/courses/cse370/08wi/pdfs/lectures/04-Logic%20gates.pdf">LOGIC GATES</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">PROGRAMMING</a>
+  <a href="http://www.ece.umd.edu/class/enee359a/verilog_tutorial.pdf">VERILOG</a>
+  <a href="https://www.cse.iitb.ac.in/~uday/courses/cs715-09/gcc-rtl.pdf">RTL</a>
+  <a href="http://moblie123.cm.nctu.edu.tw/104%20logical%20design/Unit%2004.pdf">IMPLEMENTATION</a>
+  <a href="#">OTHERS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">STATE ANALYSIS</a>
+  <a href="http://www.omg.org/news/meetings/workshops/presentations/eai_2001/tutorial_monday/tockey_tutorial/6-States,_Actions,_&_Activities.pdf">STATE DIAGRAM</a>
+  <a href="http://derekhildreth.com/portfolio/Research/State_Reduction_and_State_Assignment_Techniques_Digital_Systems_Design_CompE340.pdf">STATE REDUCTION</a>
+  <a href="http://www.cse.psu.edu/~kxc104/class/cmpen270/10s/lec/L22StateDiag.pdf">IMPLEMENTATION</a>
+  <a href="#">OTHERS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">FLIP-FLOPS</a>
+  <a href="http://www.eng.auburn.edu/~strouce/class/elec4200/flip-flop.pdf">SR FLIP-FLOP</a>
+  <a href="https://www.electronics-tutorials.ws/sequential/seq_2.html">JK FLIP-FLOP</a>
+  <a href="https://www.cs.indiana.edu/classes/b441-sjoh/notes/DFF.pdf">D FLIP-FLOP</a>
+  <a href="http://www.cim.mcgill.ca/~langer/273/6-notes.pdf">T FLIP-FLOP</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">COUNTERS</a>
+  <a href="http://educypedia.karadimov.info/library/dns_module3_p1.pdf">UP COUNTER</a>
+  <a href="http://educypedia.karadimov.info/library/dns_module3_p1.pdf">DOWN COUNTER</a>
+  <a href="http://educypedia.karadimov.info/library/dns_module3_p1.pdf">UPDOWN COUNTER</a>
+  <a href="http://staff.utar.edu.my/limsk/Digital%20Electronics/Chapter%209%20Counter%20Design.pdf">DESIGNING</a>
+</div>
+</p>
+</div>
+<div id="s&s" style="background-image:url('images/s&s.jpg');background-repeat:no-repeat; width:1890px ; height:1196px">
+<h1>
+	S&S TUTORIALS
+</h1>
+</br>
+<a href="#" class="button">HOME</a>
+</br>
+</br>
+</br>
+<p id="content">
+          SignalsAndSystems gives the basic introduction to the signals that are used for the basic communication purpose.In this section,we also study about different systems and also we have attached tutorials for Fourier series and transforms which are the basic mathematical tools used in signal representation.Having Doubt ??? you ping us @ contact provided in the Home page.
+</p>
+<p>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">SIGNALS</a>
+  <a href="http://www.di.univr.it/documenti/OccorrenzaIns/matdid/matdid744681.pdf">INTRODUCTION</a>
+  <a href="https://cpjobling.github.io/EG-247-Resources/week1/elementary_signals.pdf">ELEMENTARY SIGNALS</a>
+  <a href="http://nptel.ac.in/courses/Webcourse-contents/IIT-KANPUR/Digi_Sign_Pro/pdf/ch2.pdf">OPERATIONS ON SIGNALS</a>
+  <a href="https://www.tutorialspoint.com/signals_and_systems/signals_classification.htm">CLASSIFICATION</a>
+  
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">SYSTEMS</a>
+  <a href="http://www.di.univr.it/documenti/OccorrenzaIns/matdid/matdid744681.pdf">INTRODUCTION</a>
+  <a href="http://www.eng.ucy.ac.cy/cpitris/courses/ece623/notes/SignalsAndSystems.pdf">CLASSIFICATION</a>
+  <a href="https://www.cds.caltech.edu/~murray/courses/cds101/fa04/caltech/am04_ch6-3nov04.pdf">TF</a>
+  <a href="#">OTHERS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">FOURIER SERIES</a>
+  <a href="https://www.math.purdue.edu/academic/files/courses/2014fall/MA16021/FourierSeries(nopauses).pdf">INTRODUCTION</a>
+  <a href="http://www.site.uottawa.ca/~jpyao/courses/ELG3120_files/ch3.pdf">REPRESENTATION</a>
+  <a href="http://www.cmi.ac.in/~vipul/studenttalks/introtofourierseries.pdf">TRIGONOMETRIC</a>
+  <a href="http://documents.routledge-interactive.s3.amazonaws.com/9780415662840/answers/UEM_Sol_to_Exerc_Chap_106.pdf">EXPONENTIAL</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">FOURIER TRANSFORM</a>
+  <a href="http://www.math.ncku.edu.tw/~rchen/2016%20Teaching/Chapter%202_Fourier%20Transform.pdf">INTRODUCTION</a>
+  <a href="http://www.math.ncku.edu.tw/~rchen/2016%20Teaching/Chapter%202_Fourier%20Transform.pdf">REPRESENTATION</a>
+  <a href="http://nptel.ac.in/courses/Webcourse-contents/IIT-KANPUR/Digi_Sign_Pro/pdf/final-chap-5.pdf">DTFT</a>
+  <a href="https://web.eecs.umich.edu/~fessler/course/451/l/pdf/c5.pdf">DFT</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">CONVOLUTION</a>
+  <a href="http://www.r2labs.org/references/Convolution.pdf">INTRODUCTION</a>
+  <a href="http://www.r2labs.org/references/Convolution.pdf">CONCEPT</a>
+  <a href="http://www.uh.edu/phys7397/slide4.pdf">PROPERTY</a>
+  <a href="http://eeweb.poly.edu/~yao/EE3054/ch9.6_9.8.pdf">TIME CONVOLUTION</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">SAMPLING</a>
+  <a href="https://www.clinks.org/sites/default/files/IntroductionToSampling_0.pdf">INTRODUCTION</a>
+  <a href="http://nptel.ac.in/courses/106106097/pdf/Lecture08_SamplingTheorem.pdf">SAMPLING THEOREM</a>
+  <a href="http://uca.edu/psychology/files/2013/08/Ch7-Sampling-Techniques.pdf">TECHNIQUES</a>
+  <a href="http://www.ee.cityu.edu.hk/~hcso/ee3202_4.pdf">DATA RECONSTRUCTION</a>
+</div>
+</p>
+</div>
+<br/><br/>
+<div id="mpi" style="background-image:url('images/mpi.jpg');background-repeat:no-repeat;width:1890px;height:1200px">
+<h1>
+	MPI TUTORIALS
+</h1>
+<a href="#" class="button">HOME</a>
+<br/>
+<br/>
+<br/>
+<p id="content">
+	The concept of microprocessor interests everyone, but how does it actually work? How does it interact with the input and output devices, peripherals which are a part of the motherboard? How does it process huge amounts of data be it Gigabytes of data generated from one GTA V session of yours or Kilobytes of data pertaining to the normal text files and docx files? These links may help you move past the "101" part of your course. 
+</p>
+<p>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">8085 up</a>
+  <a href="http://www.nptel.ac.in/courses/Webcourse-contents/IISc-BANG/Microprocessors%20and%20Microcontrollers/pdf/Lecture_Notes/LNm1.pdf">INTRODUCTION</a>
+  <a href="http://www.eazynotes.com/notes/microprocessor/notes/opcodes-table-of-intel-8085.pdf">PROGRAMMING</a>
+  <a href="http://nptel.ac.in/courses/Webcourse-contents/IISc-BANG/notused/Microprocessors%20and%20Microcontrollers-/Learning%20Material%20-%20Microprocessors%20and%20microcontrollers.pdf">LAYOUT</a>
+  <a href="#">OTHERS</a>
+  
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">INTERFACING</a>
+  <a href="http://www.rgcetpdy.ac.in/Notes/ECE/III%20YEAR/EC%20T53%20-%20MPMC/Unit%202.pdf">I/O INTERFACING</a>
+  <a href="http://shodhganga.inflibnet.ac.in/bitstream/10603/70026/9/09_chapter%203.pdf">MEMORY INTERFACING</a>
+  <a href="http://dylucknow.weebly.com/uploads/6/7/3/1/6731187/8085_interrupts.pdf">INTERRUPTS</a>
+  <a href="#">OTHERS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">TIMING DIAGRAMS</a>
+  <a href="http://www.newagepublishers.com/samplechapter/000495.pdf">INTRODUCTION</a>
+  <a href="https://www.scribd.com/document/335377343/T-states-in-Microprocessor-8085">T-STATE</a>
+  <a href="http://www.newagepublishers.com/samplechapter/000495.pdf">MACHINE CYCLE</a>
+  <a href="#">OTHERS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">HIGHEREND up</a>
+  <a href="http://vig.prenhall.com/samplechapter/0789725363.pdf">INTRODUCTION</a>
+  <a href="http://vig.prenhall.com/samplechapter/0789725363.pdf">TYPES</a>
+  <a href="http://www.rgcetpdy.ac.in/Notes/ECE/III%20YEAR/EC%20T53%20-%20MPMC/Unit%202.pdf">INTERFACING</a>
+  <a href="#">OTHERS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">PROGRAMMING</a>
+  <a href="http://www.technicalsymposium.com/microprocessor_lab.pdf">INTRODUCTION</a>
+  <a href="http://www.eazynotes.com/notes/microprocessor/notes/opcodes-table-of-intel-8085.pdf">MNEMONICS</a>
+  <a href="https://passhojao.com/attachments/504346d5b2e000f6526ee1ba7068aafd51f46dfd/store/8be6a57f4431f46a7ca384ea2b2f9eefb49cef8d87d34c38d382b874693b/MicroProcessors.pdf">KIT</a>
+  <a href="#">OTHERS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">INTEGRATED CIRCUITS</a>
+  <a href="https://cie-wc.edu/555-timer-basics.pdf">555 TIMER IC</a>
+  <a href="http://tronixstuff.com/wp-content/uploads/2013/12/LM3915-data-sheet.pdf">LM3915</a>
+  <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf">ATMEGA 328</a>
+  <a href="http://www.icomuk.co.uk/files/icom/PDF/productManual/7400um.pdf">IC 7400 SERIES</a>
+</div>
+</p>
+</div>
+
+</body>
+</html>

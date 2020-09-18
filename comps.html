@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" lang="en-US" name="viewport" content="width=device-width , initial-scale=1.0"/>
+<title>One Click Learn</title>
+<link rel="stylesheet" href="css/project.css">
+<link rel="stylesheet" href="css/new.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+</head>
+<body>
+<div style="background-image:url('images/pic2.jpg');background-repeat:no-repeat;width:1890px;height:1063px">
+<h1 style="font-size:60px;text-align:center;">Computer Science and Engineering </h1>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Home</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Info</a>
+  </div>
+</div>
+<div class="dropdown">
+<button onclick="Function()" class="dropbtn">Topics</button>
+  <div id="myDrop" class="dropdown-content">
+    <a href="#ds">DS & ALGO</a>
+    <a href="#dbms">DBMS</a>
+    <a href="#cpp">CPP</a>
+    <a href="#toc">TOC</a>
+  </div>
+</div>
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+function Function() {
+    document.getElementById("myDrop").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<br/><br/><br/>
+<p>
+<p id ="content">
+	Welcome to the computer science and engineering section! This page is dedicated to all of you computer science enthusiasts who want to join the software and IT industry, But do not know where to start. This page contains the tutorials which will provide a basic introduction to various topics like Data Structures and Algorithms, Theory of Computation, Fundamentals of Computer Programming, Data Base Management System. All of these topics and the contents pertaining to these topics are very important for all you computer geeks ranging from noobs to pros.   
+</p>  
+</p>
+</p>
+</div>
+<div id="ds" style="background-image:url('images/pic3.jpg');background-repeat:no-repeat;width:1890px;height:1063px">
+<h1>
+
+DS & ALGO--- TUTORIALS
+
+</h1>
+<br/>
+<a href="#" class="button">HOME</a>
+<br/>
+<br/>
+<br/>
+<p id="content">
+    Data Structures and Alogrithms is the topic that defines the knowledge of a computer science engineer and differentiates your average joe from the pro jared. This tutorial compilation will help you from the ground basics, to a level that defines "ENGINEERS".      
+</p>
+<p>
+
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#ece" class="active">sorting</a>
+  <a href="https://youtu.be/BO145HIUHRg">insertion sort</a>
+  <a href="https://youtu.be/40iljMQmqmY">heap sort</a>
+  <a href="https://youtu.be/3DV8GO9g7B4">quick sort</a>
+  <a href="https://youtu.be/sfmaf4QpVTw">merge sort</a>
+
+</div>
+
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#ece" class="active">linkedlist</a>
+  <a href="https://youtu.be/NobHlGUjV3g">single LL</a>
+  <a href="https://youtu.be/JdQeNxWCguQ">circular LL</a>
+  <a href="https://www.geeksforgeeks.org/circular-linked-list/">double LL</a>
+  <a href="https://www.geeksforgeeks.org/doubly-circular-linked-list-set-1-introduction-and-insertion/">doubly circular LL</a>
+
+</div>
+
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#ece" class="active">trees</a>
+  <a href="https://www.geeksforgeeks.org/binary-tree-set-1-introduction">binary trees</a>
+  <a href="https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/">BST</a>
+  <a href="https://www.geeksforgeeks.org/binary-heap/">heaps</a>
+  <a href="https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/">b-trees</a>
+</div>
+
+<div class="vertical-menu">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#ece" class="active">others</a>
+  <a href="https://www.geeksforgeeks.org/stack-data-structure-introduction-program/">stacks and queues</a>
+  <a href="https://www.geeksforgeeks.org/hashing-set-1-introduction/">hashing</a>
+  <a href="https://www.geeksforgeeks.org/graph-and-its-representations/">graphs</a>
+  <a href="https://www.geeksforgeeks.org/analysis-of-algorithms-set-4-analysis-of-loops/">time and space complexity</a>
+
+</div>
+
+</p>
+</div>
+<div id="dbms" style="background-image:url('images/dbms.jpg');background-repeat:no-repeat;width:1890px;height:1415px">
+<h1>
+
+DBMS TUTORIALS
+
+</h1>
+</br>
+<a href="#" class="button">HOME</a>
+<br/>
+<br/>
+<br/>
+<p id="content">
+	Data base management systems is te subject that saves from the pain of Local Hosting. Don't worry if you do not know these terms. These terms pertain to web development. Every website needs to be hosted on a server and dbms helps us to  do the same on our computer in a better way than the default Localhosting. Surf through these webpages to know more about the network that always watches you ;)
+</p>
+<p>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">INTRODUCTION</a>
+  <a href="https://www.geeksforgeeks.org/database-management-system-er-model/">ER MODEL</a>
+  <a href="https://www.geeksforgeeks.org/dbms-relational-model-introduction-and-codd-rules/">RDBMS</a>
+  <a href="https://www.geeksforgeeks.org/mapping-from-er-model-to-relational-model/">CONVERSION OF ER TO RDBMS</a>
+  <a href="https://practice.geeksforgeeks.org/topics/dbms/#subjectiveProblemDiv">EXAMPLES</a>
+
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">NORMALISATION</a>
+  <a href="https://www.geeksforgeeks.org/database-normalization-normal-forms/">1NF</a>
+  <a href="https://www.geeksforgeeks.org/database-management-system-lossless-decomposition/">2NF</a>
+  <a href="https://www.geeksforgeeks.org/how-to-find-the-highest-normal-form-of-a-relation/">3NF</a>
+  <a href="https://www.geeksforgeeks.org/dbms-gq/database-design-normal-forms-gq/">BCNF</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">PROGRAMMMING</a>
+  <a href="https://www.geeksforgeeks.org/sql-tutorial/">SQL</a>
+  <a href="https://www.geeksforgeeks.org/database-management-system-relational-algebra/">RELATIONAL ALGEBRA</a>
+  <a href="https://www.geeksforgeeks.org/extended-operators-in-relational-algebra/">OPERATORS IN RA</a>
+  <a href="https://www.geeksforgeeks.org/how-to-solve-relational-algebra-problems-for-gate/">EXAMPLES</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#dld" class="active">OTHERS</a>
+  <a href="https://www.geeksforgeeks.org/acid-properties-in-dbms/">TRANSACTION MANAGEMENT</a>
+  <a href="https://www.geeksforgeeks.org/concurrency-control-introduction/">CONCURRENCY CONTROL</a>
+  <a href="https://www.geeksforgeeks.org/indexing-in-databases-set-1/">FILE STRUCTURES</a>
+  <a href="https://www.geeksforgeeks.org/dbms-gq/transactions-and-concurrency-control-gq/">EXAMPLES</a>
+</div>
+</p>
+</div>
+<div id="cpp" style="background-image:url('images/pic3.jpg');background-repeat:no-repeat; width:1890px ; height:1417px">
+<h1>
+	CPP TUTORIALS
+</h1>
+</br>
+<a href="#" class="button">HOME</a>
+</br>
+</br>
+</br>
+<p id="content">
+	C++ is the programming language that introduced the concept of Object Oriented Programming to this world. So, it is no wonder that even to this day this 37 year ld programming language is relevant. Using this language one can do a variety of thing ranging from console programs to High quality Games. 
+</p>
+<p>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">BASIC PROGRAMMING</a>
+  <a href="https://www.geeksforgeeks.org/basic-input-output-c/">INPUT AND OUTPUT</a>
+  <a href="https://www.geeksforgeeks.org/operators-c-c/">OPERATORS</a>
+  <a href="https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/">ARRAYS AND STRINGS</a>
+  <a href="https://www.geeksforgeeks.org/functions-in-c/">FUNCTIONS AND POINTERS</a>
+  
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">STL</a>
+  <a href="https://www.geeksforgeeks.org/the-c-standard-template-library-stl/">INTRO TO STL</a>
+  <a href="https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/">SORTING</a>
+  <a href="https://www.geeksforgeeks.org/binary-search-algorithms-the-c-standard-template-library-stl/">SEARCHING</a>
+  <a href="https://www.geeksforgeeks.org/stdstod-stdstof-stdstold-c/">CPP LIBRARIES</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">OOPS</a>
+  <a href="https://www.geeksforgeeks.org/c-classes-and-objects/">CLASSES AND OBJECTS</a>
+  <a href="https://www.geeksforgeeks.org/inheritance-in-c/">INHERITANCE AND ENCAPSULATION</a>
+  <a href="https://www.geeksforgeeks.org/polymorphism-in-c/">POLYMORPHISM</a>
+  <a href="https://www.geeksforgeeks.org/constructors-c/">CONSTRUCTORS AND DECONSTRUCTORS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">IMPORTANT CONCEPTS</a>
+  <a href="https://www.geeksforgeeks.org/function-overloading-c/">FUNCTION OVERLOADING</a>
+  <a href="https://www.geeksforgeeks.org/operator-overloading-c/">OPERATOR OVERLOADING</a>
+  <a href="https://www.geeksforgeeks.org/exception-handling-c/">EXCEPTION HANDLING</a>
+  <a href="https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/">VIRTUAL FUNCTIONS</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">CONTAINERS</a>
+  <a href="https://www.geeksforgeeks.org/vector-in-cpp-stl/">VECTORS</a>
+  <a href="https://www.geeksforgeeks.org/list-in-c-set-2-some-useful-functions/">LISTS</a>
+  <a href="https://www.geeksforgeeks.org/forward_listremove_forward_listremove_if-c-stl/">DS USING STL</a>
+  <a href="https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/">DYNAMIC MEMORY ALLOCATION</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#s&s" class="active">OTHERS</a>
+  <a href="https://www.geeksforgeeks.org/g-fact-28/">PUZZLES</a>
+  <a href="https://www.geeksforgeeks.org/commonly-asked-c-interview-questions-set-1/">PROGRAMMING QUESTIONS</a>
+  <a href="https://www.geeksforgeeks.org/commonly-asked-c-interview-questions-set-1/">INTERVIEW QUESTIONS</a>
+  <a href="https://www.geeksforgeeks.org/user-defined-literals-cpp/">CPP ADVANCED</a>
+</div>
+</p>
+</div>
+<br/><br/>
+<div id="toc" style="background-image:url('images/pic5.jpg');background-repeat:no-repeat;width:1890px;height:1260px">
+<h1>
+	TOC TUTORIALS
+</h1>
+<a href="#" class="button">HOME</a>
+<br/>
+<br/>
+<br/>
+<p id="content">
+	You use your computer almost every single day. If not, you use some sort of electronic device in your day-to-day lives. Well, Did you ever wonder how the computer does that. You might say that it converts every single piece of data to binary and works on that. Well what does it do after that? Can this knowledge be used for other applications? That is what this subject teaches you! Well set the sails high as we are about to go on a pirating adventure, in search of that computing treasure.
+</p>
+<p>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">INTRODUCTION</a>
+  <a href="https://www.geeksforgeeks.org/toc-finite-automata-introduction/">FINITE AUTOMATA</a>
+  <a href="https://www.geeksforgeeks.org/theory-of-computation-conversion-from-nfa-to-dfa/">NFA TO DFA</a>
+  <a href="https://www.geeksforgeeks.org/theory-computation-minimization-dfa/">MINIMISATION OF DFA</a>
+  <a href="https://www.geeksforgeeks.org/mealy-and-moore-machines/">MEALY AND MOORE MACHINES</a>
+  
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">CFL AND CFG</a>
+  <a href="https://www.geeksforgeeks.org/regular-expressions-regular-grammar-and-regular-languages/"> INTRO TO CFL AND CFG</a>
+  <a href="https://www.geeksforgeeks.org/theory-of-computation-pumping-lemma/">PUMPING LEMMA</a>
+  <a href="https://www.geeksforgeeks.org/designing-finite-automata-from-regular-expression/">REGULAR EXPRESSIONS AND OTHERS</a>
+  <a href="https://www.geeksforgeeks.org/regular-languages-and-finite-automata-gq/">EXAMPLES AND QUIZ</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">TURING MACHINES</a>
+  <a href="https://www.geeksforgeeks.org/turing-machine/">INTRODUCTION</a>
+  <a href="https://www.geeksforgeeks.org/recursive-and-recursive-enumerable-languages/">RECURSIVE AND ENUMERABLE LANGUAGES</a>
+  <a href="https://www.geeksforgeeks.org/recursively-enumerable-sets-and-turing-machines-gq/">QUIZ-ENUMERABLE SETS</a>
+  <a href="https://www.geeksforgeeks.org/context-free-languages-and-push-down-automata-gq/">EXAMPLES</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">DECIDABILITY</a>
+  <a href="https://www.geeksforgeeks.org/theory-of-computation-decidability/">DECIDABILITY</a>
+  <a href="https://www.geeksforgeeks.org/undecidability-and-reducibility/">UNDECIDABILITY</a>
+  <a href="https://www.geeksforgeeks.org/undecidability-and-reducibility/">REDUCIBILITY</a>
+  <a href="https://www.geeksforgeeks.org/undecidability-gq/">QUIZ-UNDECIDABILITY</a>
+</div>
+<div class="vertical-menu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <a href="#mpi" class="active">OTHERS</a>
+  <a href="https://practice.geeksforgeeks.org/topics/theory%20of%20computation/">PRACTISE PROLEMS</a>
+  <a href="https://www.geeksforgeeks.org/lmn-toc/">NOTES</a>
+  <a href="https://www.geeksforgeeks.org/quiz-corner-gq/#Theory%20of%20Computation%20Mock%20Tests">QUIZES</a>
+  <a href="">REFERENCES</a>
+</div>
+</p>
+</div>
+
+</body>
+</html>
